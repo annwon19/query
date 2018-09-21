@@ -1,0 +1,15 @@
+<html>
+ <head> </head>
+ <body>
+ <input type="text" id="userName">
+ <script>
+function showName(){
+  var x= document.getElementsById('userName').value;
+  document.getElementsById('userName').value= " ";
+  document.getElementsById('show').innerHTML=x;
+}
+ </script>
+ <button onclick="showName()">click here</button>
+ <h1 id="show"></h1>
+ </body>
+ </html>
